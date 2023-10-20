@@ -1,0 +1,2 @@
+typedef struct packed { logic req; logic [2:0] req_id; logic req_type; logic [63:0] req_data1; logic [63:0] req_data2;} req_pkt_type;
+typedef struct packed { logic rsp; logic [2:0] rsp_id; logic [63:0] rsp_data;} rsp_pkt_type;
