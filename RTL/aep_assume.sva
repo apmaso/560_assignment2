@@ -1,4 +1,4 @@
-module fpv_assume(
+module aep_assume(
     input logic clk,
     input logic rst_b,
     input req_pkt_type input_req
