@@ -1,0 +1,53 @@
+module bit_count_fsm_assume(
+	input logic clk,
+	input logic rst_b,
+	input logic compute_req,
+	input logic [4:0] index,
+	input logic [63:0] data,
+	input logic lock,
+	input logic unlock );
+
+property lock_when_idle;
+@(posedge clk) 
+(lock |-> fsm_idle);
+endproperty
+
+property compute_when_not_idle;
+@(posedge clk)
+(compute_req |-> !fsm_idle);
+endproperty
+
+property single_cycle_compute_req;
+@(posedge clk)
+(compute_req |=> !compute_req);
+endproperty
+
+property only_one_req_till_fsm_idle;
+@(posedge clk)
+($rose(impl.compute_req) |=> ($stable(impl.compute_req) until $fell(impl.fsm_idle)));
+endproperty
+
+property unlock_within_two_cycles_after_out_valid;
+@(posedge clk)
+(unlock |-> ($past(out_valid) || $past(out_valid, 2)));
+endproperty
+
+property one_cycle_unlock;
+@(posedge clk)
+(unlock |=> !unlock);
+endproperty
+
+property unlock_when_not_fsm_idle;
+@(posedge clk)
+(unlock |-> !fsm_idle);
+endproperty
+
+assume_lock_when_idle:assume property(lock_when_idle);
+assume_compute_when_not_idle: assume property(compute_when_not_idle);
+assume_single_cycle_compute_req: assume property(single_cycle_compute_req);
+assume_only_one_req_till_fsm_idle:assume property(only_one_req_till_fsm_idle);
+assume_unlock_within_two_cycles_after_out_valid:assume property(unlock_within_two_cycles_after_out_valid);
+assume_one_cycle_unlock:assume property(one_cycle_unlock);
+assume_unlock_when_not_fsm_idle:assume property(unlock_when_not_fsm_idle);
+
+endmodule
