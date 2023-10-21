@@ -1,5 +1,6 @@
 
-bind execution_unit aep_assume assert_inst1(.*);
+//bind execution_unit aep_assume assert_inst1(.*);
 
 
+bind execution_unit fpv_assume assert_inst1(.*);
 
