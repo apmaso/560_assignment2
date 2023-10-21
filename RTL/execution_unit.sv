@@ -66,9 +66,9 @@ assign output_rsp.rsp_data = rr_grant[1] ? mul_rsp_data : rr_grant[0] ? add_rsp_
 // Inline SVA Assertions
 `ifdef INLINE_SVA
 
-check_trans_S0P: assert property(
+fifo_full_no_req: assume property(
 	@(posedge clk) disable iff (!rst)
-	(in && state==S0) |-> ##1 (state==S1));
+	(fifo_full) |-> (!input_req.req));
 
 `endif
 
