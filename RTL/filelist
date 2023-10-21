@@ -4,8 +4,4 @@
 ../RTL/add.sv
 ../RTL/mul.sv
 ../RTL/round_robin_arbiter.sv
-../RTL/bind_file.sva
 
-
-//../RTL/aep_assume.sva
-../RTL/fpv_assume.sva

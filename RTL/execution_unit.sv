@@ -63,6 +63,15 @@ assign output_rsp.rsp = |rr_grant;
 assign output_rsp.rsp_id = rr_grant[1] ? mul_rsp_id : rr_grant[0] ? add_rsp_id : '0;
 assign output_rsp.rsp_data = rr_grant[1] ? mul_rsp_data : rr_grant[0] ? add_rsp_data : '0;
 
+// Inline SVA Assertions
+`ifdef INLINE_SVA
+
+check_trans_S0P: assert property(
+	@(posedge clk) disable iff (!rst)
+	(in && state==S0) |-> ##1 (state==S1));
+
+`endif
+
 
 
 
