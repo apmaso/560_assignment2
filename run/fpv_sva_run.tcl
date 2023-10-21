@@ -10,5 +10,7 @@ sim_save_reset
 
 
 
-fvassume -expr {@(posedge execution_unit.clk)&&(input_req.req) let a=input_req.req_id 
-		|=> (!input_req.req)||(input_req.req_id!=a)) until (output_rsp.rsp_id==a)}
+fvassume -expr {@((posedge execution_unit.clk)&&(execution_unit.input_req.req)) |=> 
+	(!execution_unit.input_req.req) || 
+	(execution_unit.input_req.req_id!=$past(execution_unit.input_req.req_id)) 
+	until (output_rsp.rsp_id==$past(execution_unit.input_req.req_id)}
