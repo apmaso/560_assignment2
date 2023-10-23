@@ -71,12 +71,13 @@ fifo_full_no_req: assume property(
 	@(posedge clk) disable iff (!rst_b)
 	(fifo_full) |-> (!input_req.req));
 
+/*
 req_id_rsp_id: assume property(
 	@(posedge clk) disable iff (!rst_b)
 	((input_req.req) && (input_req.req_id)) 
 	|-> (!(input_req.req&&(input_req.req_id!=$sampled(input_req.req_id))) 
 	until (output_rsp.rsp_id==$sampled(input_req.req_id))));
-
+*/
 	
 // assertions	
 input_id_output_id: assert property(
@@ -94,6 +95,10 @@ output_req_to_add: assert property(
 output_req_to_mul: assert property(
 	@(posedge clk) disable iff (!rst_b)
 	 (output_req.req && (output_req.req_type == 1'b1) && mul_free)|-> (read));
+
+// Assertion 4 The output_req is valid if fifo is not empty. That is, if fifo is not empty, output_req.req is 1 
+    a4_output_req_valid_if_not_empty: assert property (@(posedge clk) disable iff (!rst_b)
+        !fifo_empty |-> output_req.req);
 
 `endif
 
