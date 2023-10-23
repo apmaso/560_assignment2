@@ -75,7 +75,7 @@ req_id_rsp_id: assume property(
 	@(posedge clk) disable iff (!rst_b)
 	((input_req.req) && (input_req.req_id)) 
 	|-> (((!input_req.req) || (input_req.req_id!=$sampled(input_req.req_id))) 
-	until (output_rsp.rsp_idr==$sampled(input_req.req_id))));
+	until (output_rsp.rsp_id==$sampled(input_req.req_id))));
 
 	
 // assertions	
