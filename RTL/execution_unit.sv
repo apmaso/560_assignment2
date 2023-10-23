@@ -71,13 +71,29 @@ fifo_full_no_req: assume property(
 	@(posedge clk) disable iff (!rst_b)
 	(fifo_full) |-> (!input_req.req));
 
-/*req_id_rsp_id: assume property(
+req_id_rsp_id: assume property(
 	@(posedge clk) disable iff (!rst_b)
-	((!input_req.req) && (|input_req.req_id)) |-> !(input_req.req_id==output_rsp.rsp_id));
-*/
+	((input_req.req) && (input_req.req_id)) 
+	|-> (((!input_req.req) || (input_req.req_id!=$sampled(input_req.req_id))) 
+	until (output_rsp.rsp_idr==$sampled(input_req.req_id))));
+
 	
 // assertions	
+input_id_output_id: assert property(
+	@(posedge clk) disable iff (!rst_b)
+	((input_req.req) && (|input_req.req_id)) |-> s_eventually (output_rsp.rsp_id==input_req.req_id));
 
+req_to_write_in: assert property(
+	@(posedge clk) disable iff (!rst_b)
+	(!input_req.req) |-> (!write_in));
+
+output_req_to_add: assert property(
+	@(posedge clk) disable iff (!rst_b)
+	 (output_req.req && (output_req.req_type == 1'b0) && add_free)|-> (read));
+
+output_req_to_mul: assert property(
+	@(posedge clk) disable iff (!rst_b)
+	 (output_req.req && (output_req.req_type == 1'b1) && mul_free)|-> (read));
 
 `endif
 
