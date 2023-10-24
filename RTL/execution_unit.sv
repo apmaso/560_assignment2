@@ -71,8 +71,6 @@ fifo_full_no_req: assume property(
 	@(posedge clk) disable iff (!rst_b)
 	(fifo_full) |-> (input_req==0));
 
-toggle_reset: assume property(
-	@(1) clk |-> (rst_b==0 ##[1:$] rst_b==1));
 	
 // assertions	
 input_id_output_id: assert property(
