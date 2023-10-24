@@ -1,0 +1,3 @@
+Command Line: /pkgs/synopsys/current/vc_static/vcs-mx/linux64/bin/elabcom -simflow -KDBRESOLVER -simvdaidir /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/design/simv.daidir -Xprefer_tech_lib -saveLevel -logdir /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/verdi/elabcomLog -silent -ssy -ssv -ssz +disable_message+C00373 -partialdesign -saveLevel -q -logdir /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/design/simv.daidir/kdbresolverLog
+uname(Linux mo.ece.pdx.edu 3.10.0-1160.99.1.el7.x86_64 #1 SMP Wed Sep 13 14:19:20 UTC 2023 x86_64)
+au time 0.203397 0.017239 0.060626 delta 20525056 20525056 total 216977408 216977408

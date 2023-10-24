@@ -1,0 +1,2 @@
+Cell properties :    Time Taken: 0.01s
+ModuleDesignPropagation :    Time Taken: 0.01s

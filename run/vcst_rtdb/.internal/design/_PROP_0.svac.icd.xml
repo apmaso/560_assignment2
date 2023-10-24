@@ -1,0 +1,51 @@
+<ICD>
+  <SystemReset name="" value="" />
+  <Module name="prop_VCFSVAC0" DesignLang="Verilog" FileName="/home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/formal/_prop_0.sv" LineNo="1">
+    <ModuleVariant name="prop_VCFSVAC0"  CheckerModule="">
+      <Property name="script_prop_8" type="assume" kind="concurrent" InFunction="0" HasLocalVars="0" PropLang="SVA" FileName="/home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/formal/_prop_0.sv" LineNo="4" MultiAutomata="1">
+        <PropertySource><![CDATA[script_prop_8: assume property(@(posedge sig1[132+:1]) (sig1[129+:3] |=> ((sig1[129+:3] != $sampled(sig1[129+:3])) until (sig2[64+:3] == $sampled(sig1[129+:3])))));
+
+]]></PropertySource>
+        <Clock>
+        <ClockSignal signal="sig1" />
+        </Clock>
+        <PropertyLeafs> 
+          <PropertyLeaf signal="sig1" />
+          <PropertyLeaf signal="sig2" />
+        </PropertyLeafs> 
+        <RegInitializations> 
+          <RegInitialization signal="_SVAC_1_states" rhs="2'b0" />
+          <RegInitialization signal="_SVAC_1_ended_reg" rhs="1'b0" />
+          <RegInitialization signal="_SVAC_1_ended_reg_0" rhs="1'b0" />
+          <RegInitialization signal="_SVAC_1_asrt_nd_ended_reg" rhs="1'b0" />
+          <RegInitialization signal="_SVAC_1_owe" rhs="10'b1111111111" />
+        </RegInitializations> 
+        <PropertyEncoding type="Deterministic" kind="negativeAlways" IsTautology="0" >
+          <EndedSignal signal="_SVAC_1_ended_reg" />
+        </PropertyEncoding>
+        <PropertyEncoding type="Deterministic" kind="vacuityEventually" IsTautology="0" >
+          <EndedSignal signal="_SVAC_1_ended_reg_0" />
+        </PropertyEncoding>
+        <PropertyEncoding type="Deterministic" kind="positiveEventually" IsTautology="0" >
+          <EndedSignal signal="_SVAC_1_asrt_nd_ended_reg" />
+          <InitSignal signal="_SVAC_1_init" />
+          <FairnessSignal signal="_SVAC_1_fairness" />
+          <InvarSignal signal="_SVAC_1_trans_of_state_0" />
+          <InvarSignal signal="_SVAC_1_trans_of_state_1" />
+          <InvarSignal signal="_SVAC_1_trans_of_state_2" />
+          <InvarSignal signal="_SVAC_1_trans_of_state_3" />
+          <InvarSignal signal="_SVAC_1_trans_of_state_4" />
+          <InvarSignal signal="_SVAC_1_trans_of_state_5" />
+          <InvarSignal signal="_SVAC_1_trans_of_state_6" />
+          <InvarSignal signal="_SVAC_1_trans_of_state_7" />
+          <InvarSignal signal="_SVAC_1_trans_of_state_8" />
+          <InvarSignal signal="_SVAC_1_trans_of_state_9" />
+          <NonDetInput signal="_SVAC_1_next_layer[0:9]" />
+          <NonDetRegister signal="_SVAC_1_layer[0:9]" />
+        </PropertyEncoding>
+      </Property>
+      <VariantInstance name="prop_VCFSVAC0" FileName="/home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/formal/_prop_0.sv" LineNo="1">
+      </VariantInstance>
+    </ModuleVariant>
+  </Module>
+</ICD>

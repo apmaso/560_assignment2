@@ -1,0 +1,53 @@
+
+
+### action	Num_calls 5	Total_time 00:00:00.064880	Total malloc-M 0
+1	Shell:	Time:00:00:00.042737	CpuTime:0.01	 Malloc-MB:0
+2	Shell:	Time:00:00:00.006846	CpuTime:0.00	 Malloc-MB:0
+3	Shell:	Time:00:00:00.005626	CpuTime:0.00	 Malloc-MB:0
+4	Shell:	Time:00:00:00.005288	CpuTime:0.00	 Malloc-MB:0
+5	Shell:	Time:00:00:00.004383	CpuTime:0.00	 Malloc-MB:0
+
+### check_fv	Num_calls 1	Total_time 00:00:00.493164	Total malloc-M 0
+1	Shell:	Time:00:00:00.493164	CpuTime:0.11	 Malloc-MB:0
+
+### create_clock	Num_calls 1	Total_time 00:00:00.030523	Total malloc-M 0
+1	File:fpv_sva_run.tcl::5	Time:00:00:00.030523	CpuTime:0.03	 Malloc-MB:0
+
+### create_reset	Num_calls 1	Total_time 00:00:00.002824	Total malloc-M 0
+1	File:fpv_sva_run.tcl::6	Time:00:00:00.002824	CpuTime:0.00	 Malloc-MB:0
+
+### fvassume	Num_calls 1	Total_time 00:00:02.342959	Total malloc-M 0
+1	File:fpv_sva_run.tcl::16	Time:00:00:02.342959	CpuTime:0.74	 Malloc-MB:0
+
+### get_blackbox	Num_calls 1	Total_time 00:00:00.000137	Total malloc-M 0
+
+### get_fml_var	Num_calls 1	Total_time 00:00:00.000099	Total malloc-M 0
+
+### get_glassbox	Num_calls 1	Total_time 00:00:00.000172	Total malloc-M 0
+
+### get_message_db_ptr	Num_calls 1	Total_time 00:00:00.000083	Total malloc-M 0
+
+### get_report_db_ptr	Num_calls 1	Total_time 00:00:00.000031	Total malloc-M 0
+
+### get_snips	Num_calls 1	Total_time 00:00:00.000210	Total malloc-M 0
+
+### report_constant	Num_calls 1	Total_time 00:00:00.000381	Total malloc-M 0
+
+### report_grid_usage	Num_calls 1	Total_time 00:00:00.000220	Total malloc-M 0
+
+### restore_session	Num_calls 1	Total_time 00:00:00.000111	Total malloc-M 0
+
+### set_fml_appmode	Num_calls 1	Total_time 00:00:00.000090	Total malloc-M 0
+
+### sim_run	Num_calls 1	Total_time 00:00:00.067415	Total malloc-M 12
+1	File:fpv_sva_run.tcl::8	Time:00:00:00.067415	CpuTime:0.02	 Malloc-MB:12
+
+### sim_save_reset	Num_calls 1	Total_time 00:00:00.065971	Total malloc-M 1
+1	File:fpv_sva_run.tcl::9	Time:00:00:00.065971	CpuTime:0.01	 Malloc-MB:1
+
+### verdi_cmd	Num_calls 2	Total_time 00:00:01.226638	Total malloc-M 0
+1	Shell:	Time:00:00:00.707021	CpuTime:0.01	 Malloc-MB:0
+2	Shell:	Time:00:00:00.519617	CpuTime:0.00	 Malloc-MB:0
+
+ ****************************Shell commands Recording************************
+___fvReportGridUsage /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/verdi/gridUsage.xml0
