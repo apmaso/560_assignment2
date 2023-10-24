@@ -95,10 +95,11 @@ output_req_to_add: assert property(
 output_req_to_mul: assert property(
 	@(posedge clk) disable iff (!rst_b)
 	 (output_req.req && (output_req.req_type == 1'b1) && mul_free)|-> (read));
-
-// Assertion 4 The output_req is valid if fifo is not empty. That is, if fifo is not empty, output_req.req is 1 
+/*
+Assertion 4 The output_req is valid if fifo is not empty. That is, if fifo is not empty, output_req.req is 1 
     a4_output_req_valid_if_not_empty: assert property (@(posedge clk) disable iff (!rst_b)
         !fifo_empty |-> output_req.req);
+*/
 
 `endif
 

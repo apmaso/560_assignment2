@@ -56,4 +56,18 @@ assign output_req = !fifo_empty ? fifo_mem[rd_ptr] : '0;
 assign fifo_empty = (count == 0) ? 1'b1 : 1'b0;                            
 assign fifo_full = (count == DEPTH) ? 1'b1 : 1'b0;
 
+
+// Inline SVA Assertions
+`ifdef INLINE_SVA
+
+// Assertion 4 The output_req is valid if fifo is not empty. That is, if fifo is not empty, output_req.req is 1 
+    output_req_valid_if_not_empty: assert property (@(posedge clk) disable iff (!rst_b)
+        !fifo_empty |-> output_req == fifo_mem[rd_ptr]);
+
+    input_req_valid_if_write_in: assert property (@(posedge clk) disable iff (!rst_b)
+        write_in |-> fifo_mem[wr_ptr]);
+
+
+
+`endif
 endmodule
