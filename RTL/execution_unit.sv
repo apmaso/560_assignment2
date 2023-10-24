@@ -82,7 +82,7 @@ req_id_rsp_id: assume property(
 // assertions	
 input_id_output_id: assert property(
 	@(posedge clk) disable iff (!rst_b)
-	((input_req.req) && (|input_req.req_id)) |-> s_eventually (output_rsp.rsp_id==input_req.req_id));
+	((input_req.req) && (input_req.req_id)) |-> s_eventually (output_rsp.rsp_id==$sampled(input_req.req_id)));
 
 req_to_write_in: assert property(
 	@(posedge clk) disable iff (!rst_b)
