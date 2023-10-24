@@ -10,8 +10,8 @@ sim_save_reset
 
 
 fvassume -expr {@(posedge clk) disable iff (!rst_b)
-	((input_req.req)&&(input_req.req_id)) 
-	|-> (!(input_req.req&&(input_req.req_id!=$sampled(input_req.req_id))) 
+	(input_req.req)&&(input_req.req_id) 
+	|-> ((input_req.req_id!=$sampled(input_req.req_id))
 	until (output_rsp.rsp_id==$sampled(input_req.req_id)))};
 
 
