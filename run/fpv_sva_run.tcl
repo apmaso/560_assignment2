@@ -14,13 +14,6 @@ fvassume -expr {@(posedge clk) disable iff (!rst_b)
 	|-> (!(input_req.req&&(input_req.req_id!=$sampled(input_req.req_id))) 
 	until (output_rsp.rsp_id==$sampled(input_req.req_id)))};
 
-
-##fvassume -expr {@(posedge clk) input_req.req |=> 
-##	(!input_req.req) || 
-##	(input_req.req_id!=$past(input_req.req_id)) 
-##	until (output_rsp.rsp_id==$past(input_req.req_id)}
-##
-##fvassume -expr {@((posedge execution_unit.clk)&&(execution_unit.input_req.req)) |=> 
-##	(!execution_unit.input_req.req) || 
-##	(execution_unit.input_req.req_id!=$past(execution_unit.input_req.req_id)) 
-##	until (output_rsp.rsp_id==$past(execution_unit.input_req.req_id)}
+#fvassume -expr {@(posedge input_req.req) 
+#	input_req.req_id |=> ((input_req.req_id!=$sampled(input_req.req_id))
+#	until (output_rsp.rsp_id==$sampled(input_req.req_id)))};
