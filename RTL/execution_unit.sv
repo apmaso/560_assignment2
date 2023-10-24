@@ -69,7 +69,7 @@ assign output_rsp.rsp_data = rr_grant[1] ? mul_rsp_data : rr_grant[0] ? add_rsp_
 // assumptions
 fifo_full_no_req: assume property(
 	@(posedge clk) disable iff (!rst_b)
-	(fifo_full) |=> (input_req==0);
+	(fifo_full) |=> (input_req==0));
 
 /*
 req_id_rsp_id: assume property(
