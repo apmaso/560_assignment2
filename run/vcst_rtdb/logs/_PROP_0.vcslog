@@ -1,7 +1,0 @@
-Command: vcs -sverilog -Xmonet -scm /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/design/_PROP_0.xml \
--o /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/design/work._PROP_0.exe \
--Mdir=/home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/design/csrc \
-+warn=noIWNF +warn=noELW_UNBOUND -suppress=DB_LOAD -suppress=SIMU-RESOLUTION -q -l \
-/home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/logs/_PROP_0.vcslog \
--assert svaext -cm assert -error=noMPD -full64 /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/formal/_prop_0.sv \
-
