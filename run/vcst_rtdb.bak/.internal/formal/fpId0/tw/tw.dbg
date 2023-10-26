@@ -1,0 +1,65 @@
+;; Tanglewood started at Thu Oct 26 13:34:37 2023 with pid 9157.
+;; version QSCR 4457536 Tue Oct 18 01:53:09 2022
+;; mode client
+;; using R_2020.09_SP2_PROD_CDPL_BF5 
+;; using csc_4.11.0
+;; using MG_HOME /pkgs/synopsys/current/vc_static
+;; using GL_HOME /pkgs/synopsys/current/vc_static
+(tw-option-set! skip-lower-depth-msg-ext 3)
+(tw-option-set! tw-bh-random-workers 0)
+(tw-option-set! tw-bh-mode 0)
+(tw-option-set! tw-bh-randomize #f)
+(tw-option-set! upfront-worker-timeout 1)
+(tw-option-set! sss-mode 0)
+(tw-option-set! oct-mode 1977)
+(tw-option-set! oct-point 9)
+(tw-option-set! seqaig-compression #t)
+(tw-option-set! tr-init-batch-size 10)
+(define max-mem-eng 8)
+(define llk-opts " -effort 0 -trace_effort 4 -abstract_size 0 -base_abstract_size 30 -abstract_depth 0 -max_tsccs -1 -max_seeds 0 -max_states 20 -max_traces 1 -trace_mode 2 -reorder 1")
+(define llk-enable 0)
+(define llk-gl? #t)
+(define llk-mg? #t)
+(define fast-mode? #f)
+(define glconflict-opts "-depth 4 -minimal 1 -reason 1")
+(tw-option-set! exe-dir "/pkgs/synopsys/current/vc_static/linux64/ctg/bin")
+(tw-option-set! orc-strategy "default")
+(tw-option-set! caching-on #t)
+(tw-option-set! gen-invariant  #t)
+(tw-option-set! rma-auto #t)
+(tw-option-set! rma-auto-type 3)
+(tw-option-set! rma-inv-handler 1)
+(tw-option-set! app-name "fpv")
+(tw-option-set! engine-score-file "/home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/formal/fpId0/fv_eng_score")
+(tw-option-set! cdpl-log-filter #f)
+(tw-option-set! cdpl-log-compress #t)
+(tw-option-set! grid-prefetch-pct 0)
+(tw-option-set! grid-prefetch-timeout 3600)
+(tw-option-set! design-top-name "execution_unit")
+(tw-option-set! replay-hints #t)
+(tw-option-set! all-results #t)
+(tw-option-set! debug #f)
+(tw-option-set! peakmem-messages #t)
+(tw-option-set! crash-messages #t)
+(define gl-deadend-opts "-resetcycles 100 -maxcycles 1000  -ignoreOutputFail -lookahead 1")
+(define gl-deadend-debug-opts "-minimal 1 -reason 1 -depth 1")
+(tw-option-set! trace-compression #t)
+(tw-option-set! max-workers-per-property -1)
+(tw-option-set! tw-tool-version "2022.06")
+(define fta-om-flow #f)
+(tw-option-set! interactive-mode #t)
+(tw-option-set! full-interactive-mode #t)
+(tw:log-load-bfse "ENGINE-DB" "/pkgs/synopsys/current/vc_static/auxx/ctg/tcl/tw_eng_db.enc")
+(tw:log-load-bfse "SCORE-FILE" "/home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/formal/fpId0/fv_eng_score")
+(acquire-dfg-vp 0 "/home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/formal/fpId0" '())
+(tw-option-set! rma-extended-mode 17)
+(tw-load-replay-data "/home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/formal/fpId0/retrieved_result/extended/rpl")
+(tw:log-load-bfse "RECIPE" "/pkgs/synopsys/current/vc_static/auxx/ctg/orc/fv_pv_default_v5.scme")
+(tw-option-set! edb-dbase-id 50000)
+(tw-play)
+;; XF-PASS:1
+;; XF-PASS:3
+;; XF-PASS:2
+Handling interrupt 15 at 61.
+TW logs shut down at 61
+CDPL shutdown at 61

@@ -1,0 +1,3 @@
+Command Line: /pkgs/synopsys/current/verdi/platform/LINUXAMD64/bin/txt2uddb txt2uddbLog/constant.txt.temp -o /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/verdi/constant.uddb
+uname(Linux mo.ece.pdx.edu 3.10.0-1160.99.1.el7.x86_64 #1 SMP Wed Sep 13 14:19:20 UTC 2023 x86_64)
+au time 0.088461 0.002952 0.020708 delta 15675392 15675392 total 118030336 118030336

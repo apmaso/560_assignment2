@@ -1,0 +1,14 @@
+13:37:57 : gui:mo.ece.pdx.edu:45270
+13:37:57 : ___vcstRenameMan
+13:37:59 : MasterSourceFile fpv_sva_run.tcl
+13:38:25 : action aaMonetBanffSavePropDBToStream -reset -summary 1 -trigger
+13:38:26 : ___vcDisplayAbstractSrcFromAutoBBox
+13:38:26 : get_blackbox -designs -verdi
+13:38:26 : get_glassbox -verdi
+13:38:26 : get_snips -verdi
+13:38:26 : action aaVerdiWaitAnnotation -trigger
+13:38:26 : action aaMonetSetReuseWave -data {}
+13:38:27 : action aaMonetBanffSavePropDBToStream -reset -summary 1 -trigger
+13:38:27 : report_constant -xml > /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/verdi/constant.xml ; verdi_cmd verdiVcstConstantReport -xmlFile /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/verdi/constant.xml
+13:38:28 : check_fv
+13:38:29 : ___fvReportGridUsage /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/verdi/gridUsage.xml0

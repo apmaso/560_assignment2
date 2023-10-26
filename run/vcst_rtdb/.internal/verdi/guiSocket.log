@@ -1,0 +1,207 @@
+13:37:53 : Disable event(s) list: aaMonetBanffGetPropSummaryResults aaMonetEvReportDbUpdated aaMonetBanffGetPropSummary aaMonetEvReportCompressFinished aaMonetBanffGetPropResults aaMonetCmdHelp aaMonetEvReportDbUpdating aaMonetEvFormalCoreInvalidated aaMonetEvReportWaiverStarted aaMonetEvReportCompressStarted aaMonetEvErrorMsg aaMonetEvReportWaiverFinished
+13:37:57 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:57 : Monet(S):aaAppGuiActive
+13:37:58 : Monet(S):aaMonetGetCmdHelp
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetSetHierarchySeparator -data . -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {hierarchy_delimiter=.}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {share_libcells=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {keep_source_loc_expr=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_verdi_kdb_common_elab=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_new_name_interface=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_remove_temporary_flops=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {prepend_default_timescale=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_ldpc_transform=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_fdpc_transform=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_vhdl_original_names=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {fml_mode_on=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {async_command_max_parallel_count=8}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {auto_correct_waiver_name=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {cdc_vector_merged_bits_simplify_level=3}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {default_waiver_file=}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {disable_abstract_nschema_linking=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {disable_waiver_command_prints=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {dpv_regression_mode=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {dump_signature_in_violation=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_all_fields_to_create_filter=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_cdc=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_compressed_group=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_copy_novas_libs=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_dc_naming_style=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_incremental_db_updates=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_lint=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_nextgen_cdc=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_nldm_nschema=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_nldm_nschema_on_demand=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_nldm_nschema_thread=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_nschema_container=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_rdc_waveform_reset_order_graph=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_sam_rtl_annotation=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_signature_to_create_waiver=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_verdi_background=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_verdi_debug=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_verdi_kdb_smart_elab=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_verdi_symbolic_schematic=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {enable_vhdl_original_names=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {field_delimiter=.}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {fml_cc_coverage_analyzer=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {fml_composite_trace=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {fml_cov_fast_mode=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {fml_cov_gen_trace=default}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {fml_cov_llk_trace_enable=unlimited}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {fml_mode_on=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {fml_vacuity_on=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {fml_vdac_disable=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {fml_witness_on=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {gui_load_filter_group_mode=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {hide_waive_this_item_link=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {hierarchy_delimiter=.}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {include_filter_field_comments=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {info_disp_elems=0}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {keep_source_loc_expr=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {lint_functional_mode=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {lint_load_goal_results=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {lint_spyglass_mode=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {lint_testbench_mode=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {msg_color_error=red}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {msg_color_info=none}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {msg_color_warn=none}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {scroll_table_speed=1}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {select_create_waiver_fields=signature}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {show_disabled_prop=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {show_msg_in_create_waiver=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {show_only_waived_and_waived_temp=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {struct_delimiter=.}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {track_msg_color_changes=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {verdi_postelab_to_check=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {verdi_table_font=11}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {verdi_vc_console_hotkey=null}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {vnr_write_kdb_resolve=true}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {waiver_disallow_append=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {waiver_require_comment=false}
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 1 -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvDesignLoading  -trigger
+13:37:59 : Monet(R):UNodeAction -name aaVerdiKdbAlias -data {true} -trigger
+13:37:59 : Monet(R):UNodeAction -name aaMonetEvGvarState -data {fml_trace_auto_fsm_state_extraction=true}
+13:37:59 : Monet(R):UNodeAction -name aaVerdiSetSimBinPath -data {simv} -trigger
+13:37:59 : Monet(R):UNodeAction -name aaVerdiEnableKdb -data {true} -trigger
+13:37:59 : Monet(R):UNodeAction -name aaVerdiEvDesignTop -data {execution_unit} -trigger
+13:37:59 : Monet(R):UNodeAction -name aaVerdiSetWorkLib -data {work} -trigger
+13:37:59 : Monet(R):UNodeAction -name aaVerdiCompileLog -data {} -trigger
+13:38:03 : Monet(R):UNodeAction -name aaMonetSetHierarchySeparator -data . -trigger
+13:38:03 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:03 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:03 : Monet(S):aaMonetDbg -apps {VCFV} -plain {1227735875}
+13:38:03 : Monet(S):aaMonetFvGetTaskAttrs
+13:38:03 : Monet(R):UNodeAction -name aaVerdiEvSetSAMBox -data {} -trigger
+13:38:03 : Monet(R):UNodeAction -name aaVerdiKdbAlias -data {true} -trigger
+13:38:04 : Monet(S):aaMonetSetVerdiDesignImportDone -data {1}
+13:38:05 : Monet(R):UNodeAction -name aaVerdiEvCompile -finished {} -trigger
+13:38:05 : Monet(R):UNodeAction -name aaMonetEvReportDbSelectiveUpdate -data { DESIGN,Objects,ReportColumns,ReportTypes,Repositories,SETUP,TagParameterValue,Vars } -trigger
+13:38:05 : Monet(R):UNodeAction -name aaMonetFvPassTaskAttrs -time {12H} -depth {-1} -effort {default} -effortConstraint {default low high bounded bug_hunting discovery} -trigger
+13:38:05 : Monet(R):UNodeAction -name aaMonetEvDesignLoaded -data 1 -trigger
+13:38:05 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:05 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:05 : Monet(R):UNodeAction -name aaVerdiConstantAnnotation  -trigger
+13:38:05 : Monet(R):UNodeAction -name aaVerdiCmdTransport -reset -cmd verdiGetVcstCmdResult -args {<Command name="sim_run" status="1" />} -trigger
+13:38:05 : Monet(R):UNodeAction -name aaVerdiCmdTransport -reset -cmd verdiGetVcstCmdResult -args {<Command name="sim_save_reset" status="1" />} -trigger
+13:38:05 : Monet(R):UNodeAction -name aaVerdiEvSeqIncrSetup -xml {/home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/formal/incrVerdiSeqMapping.xml} -trigger
+13:38:06 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:06 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:09 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:09 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:12 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:12 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:15 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:15 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:18 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:18 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:20 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:20 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:23 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:23 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:25 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:25 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:25 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:25 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:25 : Monet(R):UNodeAction -name aaVerdiEvSeqIncrSetup -xml {/home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/formal/incrVerdiSeqMapping.xml} -trigger
+13:38:25 : Monet(R):UNodeAction -name aaMonetEvSourceCmdActive -data 0 -trigger
+13:38:25 : Monet(R):UNodeAction -name aaVerdiEvMasterSourceDone  -trigger
+13:38:25 : Monet(S):aaHierViewSrcDone -data {1}
+13:38:25 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1}
+13:38:25 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:25 : Monet(R):UNodeAction -name aaAppInvokeAction -cmd {aaMonetBanffSavePropDBToStream -reset -summary 1 -trigger } -trigger
+13:38:26 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:26 : Monet(R):UNodeAction -name aaVerdiSendSviCmd -reset -data {schSetPreference -displayAbstractSrc off } -trigger
+13:38:26 : Monet(S):aaVerdiSendSviCmdDone -result {1} -success {1}
+13:38:26 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:26 : Monet(R):UNodeAction -name aaVerdiBlackboxReport -reset -data {  -delim {.}} -trigger
+13:38:26 : Monet(S):aaMSduChannelConnected
+13:38:26 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:26 : Monet(R):UNodeAction -name aaVerdiGlassboxReport -reset -data { -delim {.}} -trigger
+13:38:26 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:26 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:26 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:26 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:26 : Monet(R):UNodeAction -name aaAppInvokeAction -cmd {aaVerdiWaitAnnotation -trigger } -trigger
+13:38:26 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:27 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:27 : Monet(R):UNodeAction -name aaAppInvokeAction -cmd {aaMonetSetReuseWave -data } -trigger
+13:38:27 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:27 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1}
+13:38:27 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:27 : Monet(R):UNodeAction -name aaAppInvokeAction -cmd {aaMonetBanffSavePropDBToStream -reset -summary 1 -trigger } -trigger
+13:38:27 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:27 : Monet(R):UNodeAction -name aaVerdiSendSviCmd -reset -data {verdiVcstConstantReport -xmlFile /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/verdi/constant.xml } -trigger
+13:38:27 : Monet(S):aaVerdiSendSviCmdDone -result {1} -success {1}
+13:38:27 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:28 : Monet(R):UNodeAction -name aaMonetEvCheckFvStarted -data FPV,FPV -trigger
+13:38:28 : Monet(R):UNodeAction -name aaVerdiUpdateSqlDb  -trigger
+13:38:28 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:28 : Monet(R):UNodeAction -name aaVerdiRefreshPropertyTable -force {0} -trigger
+13:38:29 : Monet(R):UNodeAction -name aaMonetEvBanffPropertyCount -data 27 -trigger
+13:38:29 : Monet(R):UNodeAction -name aaMonetEvTwStarted  -trigger
+13:38:29 : Monet(R):UNodeAction -name aaVerdiCmdTransport -reset -cmd verdiGetVcstCmdResult -args {<Command name="check_fv" status="1" />} -trigger
+13:38:29 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:29 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:29 : Monet(R):UNodeAction -name aaAppInvokeAction -cmd {aaVerdiProgressFileReady -data /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/verdi/gridUsage.xml0 -trigger } -trigger
+13:38:29 : Monet(S):aaMonetMasterUnblock -result {1}
+13:38:45 : Monet(R):UNodeAction -name aaMonetEvTwStopped  -trigger
+13:38:45 : Monet(S):aaMonetBanffSavePropDBToStream -summary {1} -task {0}
+13:38:45 : Monet(R):UNodeAction -name aaMonetEvCheckFvFinished -data 1 -tname FPV,FPV -trigger
+13:38:54 : Monet(S):aaHierDataUpf -query {execution_unit.input_id_output_id_0} -verdi {1}
+13:38:54 : Monet(S):aaHierViewSrcDone -data {1}

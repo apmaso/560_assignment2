@@ -1,0 +1,8 @@
+Elaborated Name: 'execution_unit'
+Elaborated Name: 'inp_fifo'
+        DEPTH = 4
+        PTR_WIDTH = 2
+Elaborated Name: 'mul'
+Elaborated Name: 'add'
+Elaborated Name: 'round_robin_arbiter_0000'
+        NUM_OF_INPS = 2
