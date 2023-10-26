@@ -37,7 +37,7 @@ begin
    if(read) begin
          rd_ptr <= rd_ptr + 1'b1;                         // Also increment the rd pointer
    end  
-   if(write_in) begin
+   else if(write_in) begin
          fifo_mem[wr_ptr] <= input_req;             // If we receive a write command, store the input packet to the slot pointed to by write pointer
          wr_ptr <= wr_ptr + 1'b1;          // Also increment the write pointer
    end
@@ -45,7 +45,7 @@ begin
    if(read && !write_in) begin
 	  count <= count - 1;
    end   
-   if(write_in && !read) begin
+   else if(write_in && !read) begin
 	  count <= count + 1;
    end   
    end
