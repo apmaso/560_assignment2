@@ -69,35 +69,35 @@ assign output_rsp.rsp_data = rr_grant[1] ? mul_rsp_data : rr_grant[0] ? add_rsp_
 	
 input_id_output_id_0: assert property(
 	@(posedge clk) disable iff (!rst_b)
-	((input_req.req&&(input_req.req_id==0)) |-> s_eventually (output_rsp.rsp&&output_rsp.rsp_id==0)));
+	(input_req.req&&(input_req.req_id==0)) |=> s_eventually (output_rsp.rsp&&(output_rsp.rsp_id==0)));
 
 input_id_output_id_1: assert property(
 	@(posedge clk) disable iff (!rst_b)
-	((input_req.req&&(input_req.req_id==1)) |-> s_eventually (output_rsp.rsp&&output_rsp.rsp_id==1)));
+	(input_req.req&&(input_req.req_id==1)) |=> s_eventually (output_rsp.rsp&&(output_rsp.rsp_id==1)));
 
 input_id_output_id_2: assert property(
 	@(posedge clk) disable iff (!rst_b)
-	((input_req.req&&(input_req.req_id==2)) |-> s_eventually (output_rsp.rsp&&output_rsp.rsp_id==2)));
+	(input_req.req&&(input_req.req_id==2)) |=> s_eventually (output_rsp.rsp&&(output_rsp.rsp_id==2)));
 
 input_id_output_id_3: assert property(
 	@(posedge clk) disable iff (!rst_b)
-	((input_req.req&&(input_req.req_id==3)) |-> s_eventually (output_rsp.rsp&&output_rsp.rsp_id==3)));
+	(input_req.req&&(input_req.req_id==3)) |=> s_eventually (output_rsp.rsp&&(output_rsp.rsp_id==3)));
 
 input_id_output_id_4: assert property(
 	@(posedge clk) disable iff (!rst_b)
-	((input_req.req&&(input_req.req_id==4)) |-> s_eventually (output_rsp.rsp&&output_rsp.rsp_id==4)));
+	(input_req.req&&(input_req.req_id==4)) |=> s_eventually (output_rsp.rsp&&(output_rsp.rsp_id==4)));
 
 input_id_output_id_5: assert property(
 	@(posedge clk) disable iff (!rst_b)
-	((input_req.req&&(input_req.req_id==5)) |-> s_eventually (output_rsp.rsp&&output_rsp.rsp_id==5)));
+	(input_req.req&&(input_req.req_id==5)) |=> s_eventually (output_rsp.rsp&&(output_rsp.rsp_id==5)));
 
 input_id_output_id_6: assert property(
 	@(posedge clk) disable iff (!rst_b)
-	((input_req.req&&(input_req.req_id==6)) |-> s_eventually (output_rsp.rsp&&output_rsp.rsp_id==6)));
+	(input_req.req&&(input_req.req_id==6)) |=> s_eventually (output_rsp.rsp&&(output_rsp.rsp_id==6)));
 
 input_id_output_id_7: assert property(
 	@(posedge clk) disable iff (!rst_b)
-	((input_req.req&&(input_req.req_id==7)) |-> s_eventually (output_rsp.rsp&&output_rsp.rsp_id==7)));
+	(input_req.req&&(input_req.req_id==7)) |=> s_eventually (output_rsp.rsp&&(output_rsp.rsp_id==7)));
 
 	
 req_to_write_in: assert property(

@@ -37,7 +37,7 @@ begin
    if(read) begin
          rd_ptr <= rd_ptr + 1'b1;                         // Also increment the rd pointer
    end  
-   else if(write_in) begin
+   if(write_in) begin
          fifo_mem[wr_ptr] <= input_req;             // If we receive a write command, store the input packet to the slot pointed to by write pointer
          wr_ptr <= wr_ptr + 1'b1;          // Also increment the write pointer
    end
@@ -45,7 +45,7 @@ begin
    if(read && !write_in) begin
 	  count <= count - 1;
    end   
-   else if(write_in && !read) begin
+   if(write_in && !read) begin
 	  count <= count + 1;
    end   
    end
@@ -64,7 +64,7 @@ assign fifo_full = (count == DEPTH) ? 1'b1 : 1'b0;
         !fifo_empty |-> output_req==fifo_mem[rd_ptr]);
 
     input_req_valid_if_write_in: assert property (@(posedge clk) disable iff (!rst_b)
-        write_in |=> fifo_mem[wr_ptr]==$past(input_req));
+        write_in |=> fifo_mem[$past(wr_ptr)]==$past(input_req));
 
 
 `endif
