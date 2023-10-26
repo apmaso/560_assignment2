@@ -1,6 +1,0 @@
-{"vcs1":{"timestamp_begin":1698352702.793801438, "rt":0.41, "ut":0.27, "st":0.09}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1698352701.167318463}
-{"VCS_COMP_START_TIME": 1698352701.167318463}
-{"VCS_COMP_END_TIME": 1698352703.306378450}
-{"VCS_USER_OPTIONS": "-sverilog -Xmonet -scm /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/design/_PROP_0.xml -o /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/design/work._PROP_0.exe -Mdir=/home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/design/csrc +warn=noIWNF +warn=noELW_UNBOUND -suppress=DB_LOAD -suppress=SIMU-RESOLUTION -q -l /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/logs/_PROP_0.vcslog -assert svaext -cm assert -error=noMPD -full64 /home/amaso/common/Documents/ECE560/560_assignment2/run/vcst_rtdb/.internal/formal/_prop_6.sv"}
-{"vcs1": {"peak_mem": 353624}}

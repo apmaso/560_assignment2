@@ -1,6 +1,0 @@
-../RTL/add.sv
-../RTL/design_includes.vh
-../RTL/execution_unit.sv
-../RTL/inp_fifo.sv
-../RTL/mul.sv
-../RTL/round_robin_arbiter.sv

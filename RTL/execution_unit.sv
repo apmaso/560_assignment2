@@ -98,7 +98,6 @@ input_id_output_id_6: assert property(
 input_id_output_id_7: assert property(
 	@(posedge clk) disable iff (!rst_b)
 	(input_req.req&&(input_req.req_id==7)) |-> ##[+] (output_rsp.rsp&&(output_rsp.rsp_id==7)));
-
 	
 req_to_write_in: assert property(
 	@(posedge clk) disable iff (!rst_b)

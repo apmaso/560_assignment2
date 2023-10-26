@@ -60,10 +60,10 @@ assign fifo_full = (count == DEPTH) ? 1'b1 : 1'b0;
 // Inline SVA Assertions
 `ifdef INLINE_SVA
 
-    output_req_valid_if_not_empty: assert property (@(posedge clk) disable iff (!rst_b)
+    not_empty_output_req: assert property (@(posedge clk) disable iff (!rst_b)
         !fifo_empty |-> output_req==fifo_mem[rd_ptr]);
 
-    input_req_valid_if_write_in: assert property (@(posedge clk) disable iff (!rst_b)
+    write_in_input_to_fifo: assert property (@(posedge clk) disable iff (!rst_b)
         write_in |=> fifo_mem[$past(wr_ptr)]==$past(input_req));
 
 
